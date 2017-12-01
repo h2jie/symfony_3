@@ -32,7 +32,7 @@ class TaskController extends Controller
       $form->handleRequest($request);
 
        if ($form->isSubmitted() && $form->isValid()) {
-            $task = $form->getData();0918
+            $task = $form->getData();
             $em = $this->getDoctrine()->getManager();
             $em->persist($task);
             $em->flush();
@@ -48,9 +48,12 @@ class TaskController extends Controller
      */
     public function listAction()
     {
+      $em = $this->getDoctrine()->getManager();
+      $repository = $em->getRepository('AppBundle:Task');
+      $tasques=$repository->findAll();
 
         return $this->render('AppBundle:Task:list.html.twig', array(
-            // ...
+            'Task'=>$tasques
         ));
     }
 
