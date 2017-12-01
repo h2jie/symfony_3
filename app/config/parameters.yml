@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: TodoList
+    database_user: root
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 40d5c32b94a0d1af487a8d3177c69b49f3574b6c
