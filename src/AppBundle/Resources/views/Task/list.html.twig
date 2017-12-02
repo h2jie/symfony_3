@@ -3,18 +3,18 @@
 {% block title %}AppBundle:Task:list{% endblock %}
 
 {% block body %}
-<h1>Welcome to the Task:list page</h1>
-<table>
-{% for task in Task %}
-    <tr>
-        <td>{{task.id}}</td>
-        <td>{{task.title}}</td>
-        <td>{{task.date|date('Y-m-d H:i:s')}}</td>
-    </tr>
-{% else %}
-    <tr>
-        <td>No hay resultados.</td>
-    </tr>
-{% endfor %}
-</table>
+  <h1>Welcome to the Task:list page</h1>
+  <table>
+    {% for task in Task %}
+      <tr>
+          <td>{{task.id}}</td>
+          <td>{{task.title}}</td>
+          <td>{{task.date|date('Y-m-d H:i:s')}}</td>
+      </tr>
+    {% else %}
+      <tr>
+          <td>No hay resultados.</td>
+      </tr>
+    {% endfor %}
+  </table>
 {% endblock %}

@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Task
@@ -13,27 +14,27 @@ use Doctrine\ORM\Mapping as ORM;
 class Task
 {
     /**
-     * @var int
+     * @var integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      *
      * @ORM\Column(name="title", type="string", length=255)
      */
-    private $title;
+    protected $title;
 
     /**
      * @var \DateTime
      *
      * @ORM\Column(name="date", type="datetime")
      */
-    private $date;
+    protected $date;
 
 
     /**
@@ -94,4 +95,3 @@ class Task
         return $this->date;
     }
 }
-
