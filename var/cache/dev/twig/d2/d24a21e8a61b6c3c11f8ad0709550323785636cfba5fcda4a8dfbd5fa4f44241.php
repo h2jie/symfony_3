@@ -22,70 +22,69 @@ class __TwigTemplate_8f807ab2e5b3204b0e9958bec61d8ac520a1cfcd123e56dd4bdfaa0eec0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0763f392b5da7230d4825e9d368371068997d1f2b7f438f5dca87c329c6844fe = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0763f392b5da7230d4825e9d368371068997d1f2b7f438f5dca87c329c6844fe->enter($__internal_0763f392b5da7230d4825e9d368371068997d1f2b7f438f5dca87c329c6844fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:delete.html.twig"));
+        $__internal_8a0f7268fe39df213c6fa997ff4737f62f6589202f64e740ac3522bc5e02f3f5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_8a0f7268fe39df213c6fa997ff4737f62f6589202f64e740ac3522bc5e02f3f5->enter($__internal_8a0f7268fe39df213c6fa997ff4737f62f6589202f64e740ac3522bc5e02f3f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:delete.html.twig"));
 
-        $__internal_1ff173bebe43873a9c80823186e3ac13cecda816c8594ef6b6208fa4a1452d76 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1ff173bebe43873a9c80823186e3ac13cecda816c8594ef6b6208fa4a1452d76->enter($__internal_1ff173bebe43873a9c80823186e3ac13cecda816c8594ef6b6208fa4a1452d76_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:delete.html.twig"));
+        $__internal_b5f5f2be1279eb1c198b19d010b396c8bd9bdeefda3c5fe0414d2bfdf3bbb32b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b5f5f2be1279eb1c198b19d010b396c8bd9bdeefda3c5fe0414d2bfdf3bbb32b->enter($__internal_b5f5f2be1279eb1c198b19d010b396c8bd9bdeefda3c5fe0414d2bfdf3bbb32b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:delete.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_0763f392b5da7230d4825e9d368371068997d1f2b7f438f5dca87c329c6844fe->leave($__internal_0763f392b5da7230d4825e9d368371068997d1f2b7f438f5dca87c329c6844fe_prof);
+        $__internal_8a0f7268fe39df213c6fa997ff4737f62f6589202f64e740ac3522bc5e02f3f5->leave($__internal_8a0f7268fe39df213c6fa997ff4737f62f6589202f64e740ac3522bc5e02f3f5_prof);
 
         
-        $__internal_1ff173bebe43873a9c80823186e3ac13cecda816c8594ef6b6208fa4a1452d76->leave($__internal_1ff173bebe43873a9c80823186e3ac13cecda816c8594ef6b6208fa4a1452d76_prof);
+        $__internal_b5f5f2be1279eb1c198b19d010b396c8bd9bdeefda3c5fe0414d2bfdf3bbb32b->leave($__internal_b5f5f2be1279eb1c198b19d010b396c8bd9bdeefda3c5fe0414d2bfdf3bbb32b_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_cd0a9f1a667335c7c5ce59f74a79361069776561d489bd606f1b6d4843c6e21d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_cd0a9f1a667335c7c5ce59f74a79361069776561d489bd606f1b6d4843c6e21d->enter($__internal_cd0a9f1a667335c7c5ce59f74a79361069776561d489bd606f1b6d4843c6e21d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_13c29fee82b6a3b0009d68e8e780b780d094e8cc1a6e3ecafd182665497527c1 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_13c29fee82b6a3b0009d68e8e780b780d094e8cc1a6e3ecafd182665497527c1->enter($__internal_13c29fee82b6a3b0009d68e8e780b780d094e8cc1a6e3ecafd182665497527c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_cbc5a655a429171e3b38bddc6091cb9aeb9e8e978cf4623bbdf9859684918f8e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cbc5a655a429171e3b38bddc6091cb9aeb9e8e978cf4623bbdf9859684918f8e->enter($__internal_cbc5a655a429171e3b38bddc6091cb9aeb9e8e978cf4623bbdf9859684918f8e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_1a8f8379c0e70e10bb1e3208a6ae619b17f48192dfc22538c04646e5e361bcf9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1a8f8379c0e70e10bb1e3208a6ae619b17f48192dfc22538c04646e5e361bcf9->enter($__internal_1a8f8379c0e70e10bb1e3208a6ae619b17f48192dfc22538c04646e5e361bcf9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "AppBundle:Task:delete";
         
-        $__internal_cbc5a655a429171e3b38bddc6091cb9aeb9e8e978cf4623bbdf9859684918f8e->leave($__internal_cbc5a655a429171e3b38bddc6091cb9aeb9e8e978cf4623bbdf9859684918f8e_prof);
+        $__internal_1a8f8379c0e70e10bb1e3208a6ae619b17f48192dfc22538c04646e5e361bcf9->leave($__internal_1a8f8379c0e70e10bb1e3208a6ae619b17f48192dfc22538c04646e5e361bcf9_prof);
 
         
-        $__internal_cd0a9f1a667335c7c5ce59f74a79361069776561d489bd606f1b6d4843c6e21d->leave($__internal_cd0a9f1a667335c7c5ce59f74a79361069776561d489bd606f1b6d4843c6e21d_prof);
+        $__internal_13c29fee82b6a3b0009d68e8e780b780d094e8cc1a6e3ecafd182665497527c1->leave($__internal_13c29fee82b6a3b0009d68e8e780b780d094e8cc1a6e3ecafd182665497527c1_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_1fd663ad107d36d64ddfa7907962968081f049ee94b326ec70a15da22c1bac12 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1fd663ad107d36d64ddfa7907962968081f049ee94b326ec70a15da22c1bac12->enter($__internal_1fd663ad107d36d64ddfa7907962968081f049ee94b326ec70a15da22c1bac12_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_39ec82048d024ba2ddd610e6962718195cc1fb240a4a25681faf29a48749f11c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_39ec82048d024ba2ddd610e6962718195cc1fb240a4a25681faf29a48749f11c->enter($__internal_39ec82048d024ba2ddd610e6962718195cc1fb240a4a25681faf29a48749f11c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_1802749510ad19b3f23c925428c315ae4473f0d6ea67c281eeb888540adcc479 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1802749510ad19b3f23c925428c315ae4473f0d6ea67c281eeb888540adcc479->enter($__internal_1802749510ad19b3f23c925428c315ae4473f0d6ea67c281eeb888540adcc479_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_0f1dbb62438828ca838209c8a41c41c32a6c5f5615627898b1e7fc912e87234a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0f1dbb62438828ca838209c8a41c41c32a6c5f5615627898b1e7fc912e87234a->enter($__internal_0f1dbb62438828ca838209c8a41c41c32a6c5f5615627898b1e7fc912e87234a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "<h1>Welcome to the Task:delete page</h1>
-
 ";
-        // line 8
+        // line 7
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_start');
         echo "
 ";
-        // line 9
+        // line 8
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock(($context["form"] ?? $this->getContext($context, "form")), 'widget');
         echo "
 ";
-        // line 10
+        // line 9
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
         echo "
 
 ";
         
-        $__internal_1802749510ad19b3f23c925428c315ae4473f0d6ea67c281eeb888540adcc479->leave($__internal_1802749510ad19b3f23c925428c315ae4473f0d6ea67c281eeb888540adcc479_prof);
+        $__internal_0f1dbb62438828ca838209c8a41c41c32a6c5f5615627898b1e7fc912e87234a->leave($__internal_0f1dbb62438828ca838209c8a41c41c32a6c5f5615627898b1e7fc912e87234a_prof);
 
         
-        $__internal_1fd663ad107d36d64ddfa7907962968081f049ee94b326ec70a15da22c1bac12->leave($__internal_1fd663ad107d36d64ddfa7907962968081f049ee94b326ec70a15da22c1bac12_prof);
+        $__internal_39ec82048d024ba2ddd610e6962718195cc1fb240a4a25681faf29a48749f11c->leave($__internal_39ec82048d024ba2ddd610e6962718195cc1fb240a4a25681faf29a48749f11c_prof);
 
     }
 
@@ -101,7 +100,7 @@ class __TwigTemplate_8f807ab2e5b3204b0e9958bec61d8ac520a1cfcd123e56dd4bdfaa0eec0
 
     public function getDebugInfo()
     {
-        return array (  80 => 10,  76 => 9,  72 => 8,  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
+        return array (  79 => 9,  75 => 8,  71 => 7,  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -120,7 +119,6 @@ class __TwigTemplate_8f807ab2e5b3204b0e9958bec61d8ac520a1cfcd123e56dd4bdfaa0eec0
 
 {% block body %}
 <h1>Welcome to the Task:delete page</h1>
-
 {{ form_start(form) }}
 {{ form_widget(form) }}
 {{ form_end(form) }}

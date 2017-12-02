@@ -22,93 +22,93 @@ class __TwigTemplate_fe0fa45974082fe27ef0d525a1d771f0d6e7d6c3fbd7c29c4466395d41d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6c729e9640bf8d1d8b433a5d87ba95f9745cd8bd460f248679ef2ded82903e21 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6c729e9640bf8d1d8b433a5d87ba95f9745cd8bd460f248679ef2ded82903e21->enter($__internal_6c729e9640bf8d1d8b433a5d87ba95f9745cd8bd460f248679ef2ded82903e21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:list.html.twig"));
+        $__internal_d6626f5185fd5ff29cb9ed6587db2b0cac2cd3d34735c75153b674ba742c83e1 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d6626f5185fd5ff29cb9ed6587db2b0cac2cd3d34735c75153b674ba742c83e1->enter($__internal_d6626f5185fd5ff29cb9ed6587db2b0cac2cd3d34735c75153b674ba742c83e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:list.html.twig"));
 
-        $__internal_0219a88a798a541b0fea09e5d5dd0517846e27883eb192f6050418d5ae160476 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0219a88a798a541b0fea09e5d5dd0517846e27883eb192f6050418d5ae160476->enter($__internal_0219a88a798a541b0fea09e5d5dd0517846e27883eb192f6050418d5ae160476_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:list.html.twig"));
+        $__internal_bfa57f8e2e1b571e8813d325ba48defe098377d410b8c57b26cb5b5f2c8d7d01 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bfa57f8e2e1b571e8813d325ba48defe098377d410b8c57b26cb5b5f2c8d7d01->enter($__internal_bfa57f8e2e1b571e8813d325ba48defe098377d410b8c57b26cb5b5f2c8d7d01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Task:list.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_6c729e9640bf8d1d8b433a5d87ba95f9745cd8bd460f248679ef2ded82903e21->leave($__internal_6c729e9640bf8d1d8b433a5d87ba95f9745cd8bd460f248679ef2ded82903e21_prof);
+        $__internal_d6626f5185fd5ff29cb9ed6587db2b0cac2cd3d34735c75153b674ba742c83e1->leave($__internal_d6626f5185fd5ff29cb9ed6587db2b0cac2cd3d34735c75153b674ba742c83e1_prof);
 
         
-        $__internal_0219a88a798a541b0fea09e5d5dd0517846e27883eb192f6050418d5ae160476->leave($__internal_0219a88a798a541b0fea09e5d5dd0517846e27883eb192f6050418d5ae160476_prof);
+        $__internal_bfa57f8e2e1b571e8813d325ba48defe098377d410b8c57b26cb5b5f2c8d7d01->leave($__internal_bfa57f8e2e1b571e8813d325ba48defe098377d410b8c57b26cb5b5f2c8d7d01_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_4a5fc56c42f98d3928b349d8ef5b4da2a6fd955304951e82bf1c31de47b78a6d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4a5fc56c42f98d3928b349d8ef5b4da2a6fd955304951e82bf1c31de47b78a6d->enter($__internal_4a5fc56c42f98d3928b349d8ef5b4da2a6fd955304951e82bf1c31de47b78a6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_60ab754ce79fcc8a372ef530550497aec7a53fdaf96ba343b5969d0e2d595e33 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_60ab754ce79fcc8a372ef530550497aec7a53fdaf96ba343b5969d0e2d595e33->enter($__internal_60ab754ce79fcc8a372ef530550497aec7a53fdaf96ba343b5969d0e2d595e33_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_fa53b0b5a02a51105a9b9b5182dbe5c340945d7e38b1832a6bc17ddedeb9a00d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fa53b0b5a02a51105a9b9b5182dbe5c340945d7e38b1832a6bc17ddedeb9a00d->enter($__internal_fa53b0b5a02a51105a9b9b5182dbe5c340945d7e38b1832a6bc17ddedeb9a00d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_b9fef6d43b051a4080c56d4d362f2f028cab2a67f7372ea9e2015cd0cb583865 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b9fef6d43b051a4080c56d4d362f2f028cab2a67f7372ea9e2015cd0cb583865->enter($__internal_b9fef6d43b051a4080c56d4d362f2f028cab2a67f7372ea9e2015cd0cb583865_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "AppBundle:Task:list";
         
-        $__internal_fa53b0b5a02a51105a9b9b5182dbe5c340945d7e38b1832a6bc17ddedeb9a00d->leave($__internal_fa53b0b5a02a51105a9b9b5182dbe5c340945d7e38b1832a6bc17ddedeb9a00d_prof);
+        $__internal_b9fef6d43b051a4080c56d4d362f2f028cab2a67f7372ea9e2015cd0cb583865->leave($__internal_b9fef6d43b051a4080c56d4d362f2f028cab2a67f7372ea9e2015cd0cb583865_prof);
 
         
-        $__internal_4a5fc56c42f98d3928b349d8ef5b4da2a6fd955304951e82bf1c31de47b78a6d->leave($__internal_4a5fc56c42f98d3928b349d8ef5b4da2a6fd955304951e82bf1c31de47b78a6d_prof);
+        $__internal_60ab754ce79fcc8a372ef530550497aec7a53fdaf96ba343b5969d0e2d595e33->leave($__internal_60ab754ce79fcc8a372ef530550497aec7a53fdaf96ba343b5969d0e2d595e33_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_8f321cfb5ca9fee5674d6af7fa684025ad24583c843e4592080b81d17d0c8ea9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8f321cfb5ca9fee5674d6af7fa684025ad24583c843e4592080b81d17d0c8ea9->enter($__internal_8f321cfb5ca9fee5674d6af7fa684025ad24583c843e4592080b81d17d0c8ea9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a804271446461b9f714d45a4712e87ad1ae8ce9c9d0eedcdff0e91b022497eef = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a804271446461b9f714d45a4712e87ad1ae8ce9c9d0eedcdff0e91b022497eef->enter($__internal_a804271446461b9f714d45a4712e87ad1ae8ce9c9d0eedcdff0e91b022497eef_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_2dcd505c996edfdf158ad304364f1e1e57e8515054a8b37dae154843a21b6804 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2dcd505c996edfdf158ad304364f1e1e57e8515054a8b37dae154843a21b6804->enter($__internal_2dcd505c996edfdf158ad304364f1e1e57e8515054a8b37dae154843a21b6804_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_573cc54d3c386b8bed8d5c84e80059cd3dde6b8a237602e09b1520572a619034 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_573cc54d3c386b8bed8d5c84e80059cd3dde6b8a237602e09b1520572a619034->enter($__internal_573cc54d3c386b8bed8d5c84e80059cd3dde6b8a237602e09b1520572a619034_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "<h1>Welcome to the Task:list page</h1>
-<table>
-";
+        echo "  <h1>Welcome to the Task:list page</h1>
+  <table >
+    ";
         // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["Task"] ?? $this->getContext($context, "Task")));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["task"]) {
             // line 9
-            echo "    <tr>
-        <td>";
+            echo "      <tr style=\"border:1px\">
+          <td>";
             // line 10
             echo twig_escape_filter($this->env, $this->getAttribute($context["task"], "id", array()), "html", null, true);
             echo "</td>
-        <td>";
+          <td>";
             // line 11
             echo twig_escape_filter($this->env, $this->getAttribute($context["task"], "title", array()), "html", null, true);
             echo "</td>
-        <td>";
+          <td>";
             // line 12
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["task"], "date", array()), "Y-m-d H:i:s"), "html", null, true);
             echo "</td>
-    </tr>
-";
+      </tr>
+    ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
             // line 15
-            echo "    <tr>
-        <td>No hay resultados.</td>
-    </tr>
-";
+            echo "      <tr>
+          <td>No hay resultados.</td>
+      </tr>
+    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['task'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 19
-        echo "</table>
+        echo "  </table>
 ";
         
-        $__internal_2dcd505c996edfdf158ad304364f1e1e57e8515054a8b37dae154843a21b6804->leave($__internal_2dcd505c996edfdf158ad304364f1e1e57e8515054a8b37dae154843a21b6804_prof);
+        $__internal_573cc54d3c386b8bed8d5c84e80059cd3dde6b8a237602e09b1520572a619034->leave($__internal_573cc54d3c386b8bed8d5c84e80059cd3dde6b8a237602e09b1520572a619034_prof);
 
         
-        $__internal_8f321cfb5ca9fee5674d6af7fa684025ad24583c843e4592080b81d17d0c8ea9->leave($__internal_8f321cfb5ca9fee5674d6af7fa684025ad24583c843e4592080b81d17d0c8ea9_prof);
+        $__internal_a804271446461b9f714d45a4712e87ad1ae8ce9c9d0eedcdff0e91b022497eef->leave($__internal_a804271446461b9f714d45a4712e87ad1ae8ce9c9d0eedcdff0e91b022497eef_prof);
 
     }
 
@@ -142,20 +142,20 @@ class __TwigTemplate_fe0fa45974082fe27ef0d525a1d771f0d6e7d6c3fbd7c29c4466395d41d
 {% block title %}AppBundle:Task:list{% endblock %}
 
 {% block body %}
-<h1>Welcome to the Task:list page</h1>
-<table>
-{% for task in Task %}
-    <tr>
-        <td>{{task.id}}</td>
-        <td>{{task.title}}</td>
-        <td>{{task.date|date('Y-m-d H:i:s')}}</td>
-    </tr>
-{% else %}
-    <tr>
-        <td>No hay resultados.</td>
-    </tr>
-{% endfor %}
-</table>
+  <h1>Welcome to the Task:list page</h1>
+  <table >
+    {% for task in Task %}
+      <tr style=\"border:1px\">
+          <td>{{task.id}}</td>
+          <td>{{task.title}}</td>
+          <td>{{task.date|date('Y-m-d H:i:s')}}</td>
+      </tr>
+    {% else %}
+      <tr>
+          <td>No hay resultados.</td>
+      </tr>
+    {% endfor %}
+  </table>
 {% endblock %}
 ", "AppBundle:Task:list.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/src/AppBundle/Resources/views/Task/list.html.twig");
     }

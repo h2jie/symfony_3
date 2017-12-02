@@ -17,7 +17,7 @@ class TaskController extends Controller
     /**
      * @Route("/create")
      */
-     
+
     public function createAction(Request $request)
     {
       $task = new Task();
@@ -27,7 +27,7 @@ class TaskController extends Controller
       $form = $this->createFormBuilder($task)
         ->add('title', TextType::class)
         ->add('date', DateTimeType::class)
-        ->add('save', SubmitType::class, array('label' => 'Create Task'))
+        ->add('save', SubmitType::class, array('label' => 'Crear Datos'))
         ->getForm();
 
       $form->handleRequest($request);
@@ -57,6 +57,43 @@ class TaskController extends Controller
             'Task'=>$task
         ));
     }
+
+    /**
+     * @Route("/delete")
+     */
+    public function deleteAction(Request $request)
+    {
+      $tasques = new Task();
+
+     $form = $this->createFormBuilder($tasques)
+         ->add('id', IntegerType::class)
+         ->add('save', SubmitType::class, array('label' => 'Eliminar Dato'))
+         ->getForm();
+
+     $form->handleRequest($request);
+
+     if($form->isSubmitted() && $form->isValid()) {
+
+         $id = $form->get('id')->getData();
+         $em = $this->getDoctrine()->getManager();
+         $tasca = $em->getRepository(Task::class)->find($id);
+
+         if (!$tasca) {
+             throw $this->createNotFoundException(
+                'No product found for id'+$id
+             );
+         }
+
+         $em->remove($tasca);
+         $em->flush();
+     }
+
+       return $this->render('AppBundle:Task:delete.html.twig', array(
+           'form' => $form->createView(),
+       ));
+
+    }
+
     /**
      * @Route("/update")
      */
@@ -70,7 +107,7 @@ class TaskController extends Controller
           ->add('title', TextType::class)
           ->add('date', DateTimeType::class)
           ->add('id', IntegerType::class)
-          ->add('save', SubmitType::class, array('label' => 'Create Task'))
+          ->add('save', SubmitType::class, array('label' => 'Actualizar Dato'))
           ->getForm();
 
           $form->handleRequest($request);
@@ -98,41 +135,6 @@ class TaskController extends Controller
         return $this->render('AppBundle:Task:update.html.twig', array(
           'form' => $form->createView(),
 
-        ));
-    }
-
-    /**
-     * @Route("/delete")
-     */
-    public function deleteAction(Request $request)
-    {
-      $tasques = new Task();
-
-      $form = $this->createFormBuilder($tasques)
-          ->add('id', IntegerType::class)
-          ->add('save', SubmitType::class, array('label' => 'Crea una tasca'))
-          ->getForm();
-
-      $form->handleRequest($request);
-
-      if($form->isSubmitted() && $form->isValid()) {
-
-          $id = $form->get('id')->getData();
-          $em = $this->getDoctrine()->getManager();
-          $tasca = $em->getRepository(Task::class)->find($id);
-
-          if (!$tasca) {
-              throw $this->createNotFoundException(
-                  'No product found for id '.$id
-              );
-          }
-
-          $em->remove($tasca);
-          $em->flush();
-      }
-
-        return $this->render('AppBundle:Task:delete.html.twig', array(
-            'form' => $form->createView(),
         ));
     }
 
