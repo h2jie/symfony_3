@@ -100,13 +100,15 @@ class TaskController extends Controller
          $tasca = $em->getRepository(Task::class)->find($id);
 
          if (!$tasca) {
-             throw $this->createNotFoundException(
-                'No encontrado el producto con el id'
-             );
+           return $this->render('AppBundle:Task:fail.html.twig', array(
+                  'form' => $form->createView(),
+              ));
+         }else{
+           $em->remove($tasca);
+           $em->flush();
          }
 
-         $em->remove($tasca);
-         $em->flush();
+
      }
 
        return $this->render('AppBundle:Task:delete.html.twig', array(
@@ -153,15 +155,16 @@ class TaskController extends Controller
           $task = $em->getRepository(Task::class)->find($id);
 
           if (!$task) {
-              throw $this->createNotFoundException(
-                  'No product found for id '.$id
-              );
+            return $this->render('AppBundle:Task:fail.html.twig', array(
+                  'form' => $form->createView(),
+              ));
+          }else{
+            $task->settitle($title);
+            $task->setdate($date);
+            $em->flush();
           }
 
-          $task->settitle($title);
-          $task->setdate($date);
 
-          $em->flush();
       }
 
         return $this->render('AppBundle:Task:update.html.twig', array(

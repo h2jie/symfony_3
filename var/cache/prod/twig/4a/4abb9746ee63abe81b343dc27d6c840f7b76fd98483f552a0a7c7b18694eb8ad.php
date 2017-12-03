@@ -1,6 +1,6 @@
 <?php
 
-/* default/index.html.twig */
+/* :default:index.html.twig */
 class __TwigTemplate_bb22b921eeac74d5479e47ca537955cf31da5719ddfdfeb597bac753407a5b33 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_bb22b921eeac74d5479e47ca537955cf31da5719ddfdfeb597bac753407
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", "default/index.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", ":default:index.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
             'stylesheets' => array($this, 'block_stylesheets'),
@@ -119,7 +119,7 @@ class __TwigTemplate_bb22b921eeac74d5479e47ca537955cf31da5719ddfdfeb597bac753407
 
     public function getTemplateName()
     {
-        return "default/index.html.twig";
+        return ":default:index.html.twig";
     }
 
     public function isTraitable()
@@ -142,6 +142,6 @@ class __TwigTemplate_bb22b921eeac74d5479e47ca537955cf31da5719ddfdfeb597bac753407
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "default/index.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/app/Resources/views/default/index.html.twig");
+        return new Twig_Source("", ":default:index.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/Symfony_3/app/Resources/views/default/index.html.twig");
     }
 }

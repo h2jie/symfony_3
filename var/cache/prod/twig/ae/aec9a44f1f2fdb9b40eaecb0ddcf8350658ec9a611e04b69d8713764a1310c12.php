@@ -1,6 +1,6 @@
 <?php
 
-/* @Twig/Exception/error.html.twig */
+/* TwigBundle:Exception:error.html.twig */
 class __TwigTemplate_771d98287dac5482d91547592461e4686b2de809b5698249a3e5d6cda9fa56c7 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -48,7 +48,7 @@ class __TwigTemplate_771d98287dac5482d91547592461e4686b2de809b5698249a3e5d6cda9f
 
     public function getTemplateName()
     {
-        return "@Twig/Exception/error.html.twig";
+        return "TwigBundle:Exception:error.html.twig";
     }
 
     public function isTraitable()
@@ -71,6 +71,6 @@ class __TwigTemplate_771d98287dac5482d91547592461e4686b2de809b5698249a3e5d6cda9f
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "@Twig/Exception/error.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.html.twig");
+        return new Twig_Source("", "TwigBundle:Exception:error.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/Symfony_3/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.html.twig");
     }
 }

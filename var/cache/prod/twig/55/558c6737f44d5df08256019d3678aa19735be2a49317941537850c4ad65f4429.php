@@ -36,17 +36,16 @@ class __TwigTemplate_bdb2319c58bedb1defefee8933b71f3c3e3398acd3fff906f5b04deedc1
     {
         // line 6
         echo "<h1>Welcome to the Task:delete page</h1>
-
 ";
-        // line 8
+        // line 7
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? null), 'form_start');
         echo "
 ";
-        // line 9
+        // line 8
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock(($context["form"] ?? null), 'widget');
         echo "
 ";
-        // line 10
+        // line 9
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? null), 'form_end');
         echo "
 
@@ -65,7 +64,7 @@ class __TwigTemplate_bdb2319c58bedb1defefee8933b71f3c3e3398acd3fff906f5b04deedc1
 
     public function getDebugInfo()
     {
-        return array (  50 => 10,  46 => 9,  42 => 8,  38 => 6,  35 => 5,  29 => 3,  11 => 1,);
+        return array (  49 => 9,  45 => 8,  41 => 7,  38 => 6,  35 => 5,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -78,6 +77,6 @@ class __TwigTemplate_bdb2319c58bedb1defefee8933b71f3c3e3398acd3fff906f5b04deedc1
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "AppBundle:Task:delete.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/src/AppBundle/Resources/views/Task/delete.html.twig");
+        return new Twig_Source("", "AppBundle:Task:delete.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/Symfony_3/src/AppBundle/Resources/views/Task/delete.html.twig");
     }
 }

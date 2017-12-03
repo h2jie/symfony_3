@@ -64,10 +64,10 @@ class Task extends \AppBundle\Entity\Task implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'title', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'date'];
+            return ['__isInitialized__', 'id', 'title', 'date'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'title', '' . "\0" . 'AppBundle\\Entity\\Task' . "\0" . 'date'];
+        return ['__isInitialized__', 'id', 'title', 'date'];
     }
 
     /**

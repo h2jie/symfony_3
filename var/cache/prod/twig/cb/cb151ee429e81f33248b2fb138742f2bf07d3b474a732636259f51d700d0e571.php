@@ -1,6 +1,6 @@
 <?php
 
-/* base.html.twig */
+/* ::base.html.twig */
 class __TwigTemplate_6894db751d72c5581793812eb59aa8bb95f84c39e851ae5ee9c79e6435b8d2bb extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -37,13 +37,37 @@ class __TwigTemplate_6894db751d72c5581793812eb59aa8bb95f84c39e851ae5ee9c79e6435b
         echo "\" />
     </head>
     <body>
+      <nav>
+        <ul style=\"list-style-type: none;\">
+            <li style=\"display:inline-block;margin-left:30px;margin-right:30px;\">
+                <a href=\"create\" style=\"text-decoration:none; color:black\">
+                    <p style=\"font-size:20px;background-color:#990000;border-radius:10px;padding:20px\">Crear Datos</p>
+                </a>
+            </li>
+            <li style=\"display:inline-block;margin-left:30px;margin-right:30px\">
+                <a href=\"update\" style=\"text-decoration:none; color:black\">
+                    <p style=\"font-size:20px;background-color:#990000;border-radius:10px;padding:20px\">Modificar Datos</p>
+                </a>
+            </li>
+            <li style=\"display:inline-block;margin-left:30px;margin-right:30px\">
+                <a href=\"list\" style=\"text-decoration:none; color:black\">
+                    <p style=\"font-size:20px;background-color:#990000;border-radius:10px;padding:20px\">Llistar Datos</p>
+                </a>
+            </li>
+            <li style=\"display:inline-block;margin-left:30px;margin-right:30px\">
+                <a href=\"delete\" style=\"text-decoration:none; color:black\">
+                    <p style=\"font-size:20px;background-color:#990000;border-radius:10px;padding:20px\">Eliminar Datos</p>
+                </a>
+            </li>
+        </ul>
+      </nav>
         ";
-        // line 10
+        // line 34
         $this->displayBlock('body', $context, $blocks);
-        // line 11
+        // line 35
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 12
+        // line 36
         echo "    </body>
 </html>
 ";
@@ -60,19 +84,19 @@ class __TwigTemplate_6894db751d72c5581793812eb59aa8bb95f84c39e851ae5ee9c79e6435b
     {
     }
 
-    // line 10
+    // line 34
     public function block_body($context, array $blocks = array())
     {
     }
 
-    // line 11
+    // line 35
     public function block_javascripts($context, array $blocks = array())
     {
     }
 
     public function getTemplateName()
     {
-        return "base.html.twig";
+        return "::base.html.twig";
     }
 
     public function isTraitable()
@@ -82,7 +106,7 @@ class __TwigTemplate_6894db751d72c5581793812eb59aa8bb95f84c39e851ae5ee9c79e6435b
 
     public function getDebugInfo()
     {
-        return array (  69 => 11,  64 => 10,  59 => 6,  53 => 5,  47 => 12,  44 => 11,  42 => 10,  35 => 7,  33 => 6,  29 => 5,  23 => 1,);
+        return array (  93 => 35,  88 => 34,  83 => 6,  77 => 5,  71 => 36,  68 => 35,  66 => 34,  35 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -95,6 +119,6 @@ class __TwigTemplate_6894db751d72c5581793812eb59aa8bb95f84c39e851ae5ee9c79e6435b
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "base.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/app/Resources/views/base.html.twig");
+        return new Twig_Source("", "::base.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/Symfony_3/app/Resources/views/base.html.twig");
     }
 }

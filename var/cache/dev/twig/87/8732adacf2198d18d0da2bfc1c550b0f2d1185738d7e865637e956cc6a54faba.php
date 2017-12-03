@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/toolbar_item.html.twig */
+/* WebProfilerBundle:Profiler:toolbar_item.html.twig */
 class __TwigTemplate_3e6b989d49b30f5a61e1db7f9287ccca3c72c0085646a194ddb439ee495ca6d0 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_3e6b989d49b30f5a61e1db7f9287ccca3c72c0085646a194ddb439ee495
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fe25c7ae60fdf9c5caa84744eb8970e11a6f044ee31cbb8008c6070961863053 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_fe25c7ae60fdf9c5caa84744eb8970e11a6f044ee31cbb8008c6070961863053->enter($__internal_fe25c7ae60fdf9c5caa84744eb8970e11a6f044ee31cbb8008c6070961863053_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_item.html.twig"));
+        $__internal_e6bd0585f20c78a79c9ce3417866a4555044400303e3fba1c29c6b5679efe233 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e6bd0585f20c78a79c9ce3417866a4555044400303e3fba1c29c6b5679efe233->enter($__internal_e6bd0585f20c78a79c9ce3417866a4555044400303e3fba1c29c6b5679efe233_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_item.html.twig"));
 
-        $__internal_9744eba131e90b61951b9e8cea5edf4148d9396a3b10b32f090b7e5533030954 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9744eba131e90b61951b9e8cea5edf4148d9396a3b10b32f090b7e5533030954->enter($__internal_9744eba131e90b61951b9e8cea5edf4148d9396a3b10b32f090b7e5533030954_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_item.html.twig"));
+        $__internal_98aff6d977574078afac825075b75acad34723648fef9253e4692f94709a4f32 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_98aff6d977574078afac825075b75acad34723648fef9253e4692f94709a4f32->enter($__internal_98aff6d977574078afac825075b75acad34723648fef9253e4692f94709a4f32_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_item.html.twig"));
 
         // line 1
         echo "<div class=\"sf-toolbar-block sf-toolbar-block-";
@@ -54,16 +54,16 @@ class __TwigTemplate_3e6b989d49b30f5a61e1db7f9287ccca3c72c0085646a194ddb439ee495
 </div>
 ";
         
-        $__internal_fe25c7ae60fdf9c5caa84744eb8970e11a6f044ee31cbb8008c6070961863053->leave($__internal_fe25c7ae60fdf9c5caa84744eb8970e11a6f044ee31cbb8008c6070961863053_prof);
+        $__internal_e6bd0585f20c78a79c9ce3417866a4555044400303e3fba1c29c6b5679efe233->leave($__internal_e6bd0585f20c78a79c9ce3417866a4555044400303e3fba1c29c6b5679efe233_prof);
 
         
-        $__internal_9744eba131e90b61951b9e8cea5edf4148d9396a3b10b32f090b7e5533030954->leave($__internal_9744eba131e90b61951b9e8cea5edf4148d9396a3b10b32f090b7e5533030954_prof);
+        $__internal_98aff6d977574078afac825075b75acad34723648fef9253e4692f94709a4f32->leave($__internal_98aff6d977574078afac825075b75acad34723648fef9253e4692f94709a4f32_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/toolbar_item.html.twig";
+        return "WebProfilerBundle:Profiler:toolbar_item.html.twig";
     }
 
     public function isTraitable()
@@ -92,6 +92,6 @@ class __TwigTemplate_3e6b989d49b30f5a61e1db7f9287ccca3c72c0085646a194ddb439ee495
     {% if link|default(false) %}</a>{% endif %}
         <div class=\"sf-toolbar-info\">{{ text|default('') }}</div>
 </div>
-", "@WebProfiler/Profiler/toolbar_item.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/TodoList/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar_item.html.twig");
+", "WebProfilerBundle:Profiler:toolbar_item.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/Symfony_3/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar_item.html.twig");
     }
 }
